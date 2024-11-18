@@ -1,0 +1,42 @@
+{
+  "homepage": {
+    "banner": {
+      "titleType1": "Real-world AI Applications \n For Educational Institutions",
+      "titleType2": "Real-world AI Applications \n For E-commerce Platforms",
+      "title": "Real-world AI Applications \n For Every Business",
+      "desc": "We're pushing the boundaries of AI, making it more practical, more feasible, and ready to conquer any domain you’re in. Ready to unlock boundless possibilities?",
+      "btnLabel1": "Learn More",
+      "btnLabel2": "Join the Waitlist"
+    },
+    "section2": {
+      "title": "High Tech Meets \nHigh Impact",
+      "desc": "At SenLab, we believe in high-tech, real-world AI applications that tackle your toughest challenges. Our transformative products are built to supercharge productivity, streamline daily life, bringing AI's magic to your hands."
+    },
+    "section3": {
+      "title": "The Minds Behind The Machines",
+      "desc": "Behind every groundbreaking AI tool is a team of visionaries committed to shaping the future. Here’s who started it all."
+    },
+    "section4": {
+      "title": "Exciting AI Innovations On The Horizon",
+      "desc": "Get ready for our next wave of AI wonders. Let's have a sneak peek at what's coming your way.",
+      "item1": {
+        "title": "Hallucination-Prevention AI Chatbot",
+        "sub": "Tired of ChatGPT's occasional mind-wanderings? Our Senbot validates every detail with precision, producing only accurate, reliable responses."
+      },
+      "item2": {
+        "title": "Real-Time Truth Checker AI Chatbot",
+        "sub": "Seamlessly integrate our real-time truth checker module into your systems to fact-check on the fly and get spot-on, updated answers at every touchpoint."
+      },
+      "item3": {
+        "title": "OCR for Key Information Extraction",
+        "sub": "Powered by advanced LLM, our next-gen OCR tool extracts key values faster and smarter than traditional software."
+      },
+      "item4": {
+        "title": "OCR for Anonymity",
+        "sub": "Automatically remove sensitive information from documents, protecting privacy in resumé, contracts, legal papers, and much more."
+      }
+    },
+    "ctaTitle": "Get Notified\nWhen We Launch",
+    "backerTitle": "THE HUB FOR OUR LATEST\nAI TECHNOLOGIES"
+  }
+}

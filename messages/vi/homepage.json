@@ -1,6 +1,8 @@
 {
   "homepage": {
     "banner": {
+      "titleType1": "Real-world AI Applications \n For To Redefine Industries",
+      "titleType1Mobile": "Real-world \nAI Applications \n For To Redefine Industries",
       "title": "Real-world AI Applications \n For Every Business",
       "desc": "We're pushing the boundaries of AI, making it more practical, more feasible, and ready to conquer any domain you’re in. Ready to unlock boundless possibilities?",
       "btnLabel1": "Learn More",
@@ -12,9 +14,11 @@
     },
     "section3": {
       "title": "The Minds Behind The Machines",
+      "titleMobile": "The Minds Behind \nThe Machines",
       "desc": "Behind every groundbreaking AI tool is a team of visionaries committed to shaping the future. Here’s who started it all."
     },
     "section4": {
+      "titleMobile": "Exciting AI Innovations \nOn The Horizon",
       "title": "Exciting AI Innovations On The Horizon",
       "desc": "Get ready for our next wave of AI wonders. Let's have a sneak peek at what's coming your way.",
       "item1": {

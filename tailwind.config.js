@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx}',
@@ -35,27 +37,8 @@ module.exports = {
         'banner-first': 'url(/images/home/banner/background-banner-1.webp)',
       },
       fontFamily: {
-        'regular': ['Gilroy'],
-        'medium': ['Gilroy-Medium'],
-        'medium-italic': ['Gilroy-MediumItalic'],
-        'black': ['Gilroy-Black'],
-        'black-italic': ['Gilroy-BlackItalic'],
-        'heavy': ['Gilroy-Heavy'],
-        'heavy-italic': ['Gilroy-HeavyItalic'],
-        'bold': ['Gilroy-Bold'],
-        'bold-italic': ['Gilroy-BoldItalic'],
-        'light': ['Gilroy-Light'],
-        'light-italic': ['Gilroy-LightItalic'],
-        'italic': ['Gilroy-Italic'],
-        'xbold': ['Gilroy-XBold'],
-        'xbold-italic': ['Gilroy-XBoldItalic'],
-        'thin': ['Gilroy-Thin'],
-        'thin-italic': ['Gilroy-ThinItalic'],
-        'xlight': ['Gilroy-XLight'],
-        'xlight-italic': ['Gilroy-XLightItalic'],
-        'semi': ['Gilroy-Semi'],
-        'semi-bold': ['Gilroy-SemiBold'],
-        'semi-bold-italic': ['Gilroy-SemiBoldItalic'],
+        'spaceMonoRegular': ['Space Mono'],
+        'spaceMonoBold': ['Space Mono Bold']
       },
     },
   }

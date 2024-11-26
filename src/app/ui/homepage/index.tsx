@@ -38,21 +38,19 @@ const HomePage = () => {
     },
   ];
   return (
-    <div
-      style={{
-        paddingBottom: "50px",
-      }}
-    >
+    <div className="bg-white">
       <Banner
+        titleMobile={t("banner.titleMobile")}
         title={t("banner.title")}
         desc={t("banner.desc")}
         btnLabel1={t("banner.btnLabel1")}
         btnLabel2={t("banner.btnLabel2")}
       />
       <Section2 title={t("section2.title")} desc={t("section2.desc")} />
-      <Section3 title={t("section3.title")} desc={t("section3.desc")} />
+      <Section3 titleMobile={t("section3.titleMobile")} title={t("section3.title")} desc={t("section3.desc")} />
       <Section4
         arrSlide={arrSection4}
+        titleMobile={t("section4.titleMobile")}
         title={t("section4.title")}
         desc={t("section4.desc")}
       />

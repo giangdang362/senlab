@@ -19,14 +19,14 @@ const Backer: FC<Props> = ({ title }) => {
         </div>
       </div>
       <div className="hidden mobile:block">
-        <div className="whitespace-pre-line px-[20px] py-[40px] text-center font-bold text-[30px] capitalize leading-9 text-[#231F20] mobile:text-[23px]">
+        <div className="whitespace-pre-line px-[20px] py-[40px] text-center font-bold text-[30px] capitalize leading-9 text-[#231F20] mobile:text-[23px] mobile:leading-[28px]">
           {title}
         </div>
         <div className="flex border-b border-t border-[#185BEA]">
           <div className="h-full w-1/2 border-r border-[#185BEA] py-[30px] text-center font-bold text-[21px] capitalize leading-[108px] text-[#231F20]">
             LTS GROUP
           </div>
-          <div className="w-1/2 py-[30px] text-center font-bold text-[21px] capitalize leading-[36px] text-[#231F20]">
+          <div className="content-center w-1/2 py-[30px] text-center font-bold text-[21px] capitalize leading-[24px] text-[#231F20]">
             LTS GLOBAL DIGITAL SERVICES
           </div>
         </div>

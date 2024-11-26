@@ -6,6 +6,7 @@ import "swiper/css/free-mode";
 
 interface Props {
   title: string;
+  titleMobile: string;
   desc: string;
   arrSlide: {
     img: StaticImageData;
@@ -14,19 +15,22 @@ interface Props {
   }[];
 }
 
-const Section4: FC<Props> = ({ title, desc, arrSlide }) => {
+const Section4: FC<Props> = ({ titleMobile, title, desc, arrSlide }) => {
   return (
     <div className="flex items-center justify-center bg-[#fff]">
       <div className="mx-auto max-w-[1200px] py-[100px] mobile:p-[20px] mobile:py-[45px]">
-        <div className="mb-[60px] mobile:mb-[34px]">
-          <h1 className="whitespace-pre-line text-center font-bold text-[65px] leading-[64px] text-[#231F20] mobile:text-center mobile:text-[26px] mobile:leading-[30px]">
+        <div className="mb-[60px] mobile:mb-[35px]">
+          <h1 className="mobile:hidden whitespace-pre-line text-center font-bold text-[50px] leading-[55px] text-[#231F20] mobile:text-center mobile:text-[26px] mobile:leading-[30px]">
             {title}
           </h1>
-          <p className="mobile:[16px] mt-[22px] text-center text-[18px] font-normal leading-[21px] text-[#231F20] mobile:mt-[14px] mobile:text-center mobile:leading-[19px]">
+          <h1 className="hidden mobile:block whitespace-pre-line text-center font-bold text-[50px] leading-[55px] text-[#231F20] mobile:text-center mobile:text-[26px] mobile:leading-[30px]">
+            {titleMobile}
+          </h1>
+          <p className="mt-[20px] text-center font-mono text-[18px] font-normal leading-[21px] text-[#231F20] mobile:mt-[14px] mobile:text-center mobile:text-[16px] mobile:leading-[19px]">
             {desc}
           </p>
         </div>
-        <div className="flex justify-between mobile:flex-col mobile:items-center mobile:gap-[30px]">
+        <div className="flex justify-between gap-[40px] mobile:flex-col mobile:items-center mobile:gap-[30px]">
           {arrSlide?.map((item, index) => (
             <div
               key={item.title}
@@ -41,7 +45,7 @@ const Section4: FC<Props> = ({ title, desc, arrSlide }) => {
                 <div className="mb-4 text-center font-medium text-[18px] text-white">
                   {item.title}
                 </div>
-                <div className="h-[160px] text-center text-[16px] leading-5 text-white mobile:h-[100px] mobile:text-[14px] mobile:leading-4">
+                <div className="h-[160px] text-center font-mono text-[16px] font-normal leading-5 text-white mobile:h-[100px] mobile:text-[14px] mobile:leading-4">
                   {item.sub}
                 </div>
               </div>

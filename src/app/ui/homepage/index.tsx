@@ -40,8 +40,6 @@ const HomePage = () => {
   return (
     <div className="bg-white">
       <Banner
-        titleMobile={t("banner.titleMobile")}
-        title={t("banner.title")}
         desc={t("banner.desc")}
         btnLabel1={t("banner.btnLabel1")}
         btnLabel2={t("banner.btnLabel2")}

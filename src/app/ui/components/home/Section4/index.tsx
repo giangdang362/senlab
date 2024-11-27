@@ -34,13 +34,13 @@ const Section4: FC<Props> = ({ titleMobile, title, desc, arrSlide }) => {
           {arrSlide?.map((item, index) => (
             <div
               key={item.title}
-              className={`${index === 0 ? "bg-[#185BEA]" : index === 1 ? "bg-[#EB1773]" : index === 2 ? "bg-[#EBAB17]" : index === 3 ? "bg-[#1ACF21]" : ""} flex w-[240px] flex-col justify-between rounded-[20px] rounded-br-[100px] border-[1px] border-black p-6 shadow-[4px_4px_0px_0px_#000] mobile:shadow-[2px_2px_0px_0px_#000]`}
+              className={`${index === 0 ? "bg-[#185BEA]" : index === 1 ? "bg-[#EB1773]" : index === 2 ? "bg-[#EBAB17]" : index === 3 ? "bg-[#1ACF21]" : ""} flex w-[270px] flex-col justify-between rounded-[20px] rounded-br-[100px] border-[1px] border-black ${index === 3 ? "p-4" : "p-6"} shadow-[4px_4px_0px_0px_#000] mobile:shadow-[2px_2px_0px_0px_#000]`}
             >
               <div>
                 <Image
                   alt={item.title}
                   src={item.img}
-                  className={`${arrSlide.length - 1 !== index ? "aspect-[1]" : "aspect-[266/231]"} mb-5 w-[189px]`}
+                  className={`${arrSlide.length - 1 !== index ? "aspect-[1] w-[189px]" : "aspect-[266/231] w-[234px]"} mb-5 mx-auto`}
                 />
                 <div className="mb-4 text-center font-medium text-[18px] text-white">
                   {item.title}

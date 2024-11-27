@@ -1,9 +1,9 @@
 {
   "homepage": {
     "banner": {
-      "titleType1": "Real-world AI Applications \n For To Redefine Industries",
-      "titleType1Mobile": "Real-world \nAI Applications \n For To Redefine Industries",
-      "title": "Real-world AI Applications \n For Every Business",
+      "titleStable": "Real-world AI Applications",
+      "titleType1": "To Redefine Industries",
+      "titleType2": "For Every Business",
       "desc": "We're pushing the boundaries of AI, making it more practical, more feasible, and ready to conquer any domain you’re in. Ready to unlock boundless possibilities?",
       "btnLabel1": "Learn More",
       "btnLabel2": "Join the Waitlist"

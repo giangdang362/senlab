@@ -47,7 +47,11 @@ const HomePage = () => {
         btnLabel2={t("banner.btnLabel2")}
       />
       <Section2 title={t("section2.title")} desc={t("section2.desc")} />
-      <Section3 titleMobile={t("section3.titleMobile")} title={t("section3.title")} desc={t("section3.desc")} />
+      <Section3
+        titleMobile={t("section3.titleMobile")}
+        title={t("section3.title")}
+        desc={t("section3.desc")}
+      />
       <Section4
         arrSlide={arrSection4}
         titleMobile={t("section4.titleMobile")}

@@ -8,7 +8,7 @@ import linkedin from "@/../public/linkedin.png";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
-import { FreeMode, Pagination } from "swiper/modules";
+import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 
@@ -45,7 +45,7 @@ const arrSlide = [
   },
 ];
 
-const Section3: FC<Props> = ({titleMobile, title, desc}) => {
+const Section3: FC<Props> = ({ titleMobile, title, desc }) => {
   return (
     <div className="flex items-center justify-center bg-[#FFE8B2]">
       <div className="mx-auto max-w-[1200px] overflow-hidden py-[100px] mobile:p-[20px] mobile:pt-[45px] mobile:pb-[25px]">
@@ -94,7 +94,7 @@ const Section3: FC<Props> = ({titleMobile, title, desc}) => {
         <div className="hidden mobile:block">
           <Swiper
             modules={[Pagination]}
-            pagination={{clickable: true}}
+            pagination={{ clickable: true }}
             spaceBetween={"220px"}
             slidesPerView={"auto"}
             centeredSlides={true}

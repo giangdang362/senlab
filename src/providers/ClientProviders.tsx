@@ -8,6 +8,8 @@ const defaultTRef = (key: string) => key;
 defaultTRef.rich = (key: string) => key;
 defaultTRef.markup = (key: string) => key;
 defaultTRef.raw = (key: string) => key;
+
+// eslint-disable-next-line no-unused-vars
 defaultTRef.has = (key: string) => false;
 
 export const tRef: { current: ReturnType<typeof useTranslations<never>> } = {

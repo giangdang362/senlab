@@ -12,7 +12,13 @@ interface Props {
   btnLabel2: string;
 }
 
-const Banner: FC<Props> = ({ titleMobile, title, desc, btnLabel1, btnLabel2 }) => {
+const Banner: FC<Props> = ({
+  titleMobile,
+  title,
+  desc,
+  btnLabel1,
+  btnLabel2,
+}) => {
   const t = useTranslations("homepage");
   return (
     <div className="flex items-center justify-center bg-[#185BEA]">
@@ -37,8 +43,14 @@ const Banner: FC<Props> = ({ titleMobile, title, desc, btnLabel1, btnLabel2 }) =
           </p>
         </div>
         <div className="mt-[62px] flex justify-center gap-[40px] mobile:mt-[55px] mobile:gap-[20px]">
-          <PrimaryBtn label={btnLabel1} className="h-[44px] w-[148px] mobile:h-[30px] mobile:w-[122px]" />
-          <SecondaryBtn label={btnLabel2} className="h-[44px] w-[248px] mobile:h-[30px] mobile:w-[186px]" />
+          <PrimaryBtn
+            label={btnLabel1}
+            className="h-[44px] w-[148px] mobile:h-[30px] mobile:w-[122px]"
+          />
+          <SecondaryBtn
+            label={btnLabel2}
+            className="h-[44px] w-[248px] mobile:h-[30px] mobile:w-[186px]"
+          />
         </div>
       </div>
     </div>
